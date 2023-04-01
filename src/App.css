@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.black-nav {
+  background : black;
+  width : 100%;
+  display : flex;
+  color : white;
+  padding : 20px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -26,6 +34,23 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.modal{
+  margin-top : 20px;
+  padding : 20px;
+  background : #eee;
+  text-align : left;
+}
+
+.div{
+  box-sizing: border-box;
+}
+
+.list{
+  padding-left: 20px;
+  text-align: left;
+  border-bottom: 1px solid grey;
 }
 
 @keyframes App-logo-spin {
